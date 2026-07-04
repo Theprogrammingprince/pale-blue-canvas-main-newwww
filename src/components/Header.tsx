@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Menu, X, ChevronDown, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage, type Language } from "@/contexts/LanguageContext";
-import bailoutLogo from "@/assets/bailout-logo.jpg";
 import AuthModal from "@/components/AuthModal";
 
 const languages = [
@@ -32,7 +31,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#" className="flex items-center gap-2">
-            <img src={bailoutLogo} alt="Bailout" className="h-10 md:h-12 w-auto" />
+            <img src="/sitelogo.png" alt="Bailout" className="h-16 w-auto max-w-[180px] sm:h-20 md:h-24" />
           </a>
 
           <nav className="hidden lg:flex items-center gap-8">
