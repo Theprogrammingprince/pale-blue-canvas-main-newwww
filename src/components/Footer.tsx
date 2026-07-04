@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 mb-12">
           <div className="lg:col-span-1">
-            <img src={bailoutLogo} alt="Bailout" className="h-10 w-auto mb-4 rounded-lg" />
+            <img src="/sitelogo.png" alt="Bailout" className="h-22 w-auto max-w-[180px] sm:h-20 md:h-24" />
             <p className="text-background/70 text-sm leading-relaxed mb-6">{t("footer.desc")}</p>
           </div>
 
